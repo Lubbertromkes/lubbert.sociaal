@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head><title></title></head>
+<link rel="stylesheet" href="assets/css/youtube.container.css">
+<body>
+    <script>
+        console.log('Script gestart: de pagina wordt geladen.');
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM volledig geladen en geanalyseerd.');
+
+            const iframes = document.querySelectorAll('iframe');
+            iframes.forEach((iframe, index) => {
+                iframe.addEventListener('load', () => {
+                    console.log(`Iframe ${index + 1} geladen met URL: ${iframe.src}`);
+                });
+            });
+        });
+    </script>
+    <div class="container">
+        <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+            <div class="description">Guild Wars</div>
+        </div>
+        <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+            <div class="description">Video 2 Beschrijving</div>
+        </div>
+        <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+            <div class="description">Video 3 Beschrijving</div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

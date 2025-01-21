@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/Slide show/slide show.css">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+
+<div class="box">
+    <body>
+
+        <swiper-container class="mySwiper" init="false">
+        <swiper-slide>
+            <img src="" alt="" height="1420" width="580"></swiper-slide>
+        <swiper-slide>
+            <img src="" alt=""></swiper-slide>
+        <swiper-slide>
+            <img src="" alt=""></swiper-slide>
+        <swiper-slide>
+            <img src="" alt=""></swiper-slide>
+        <swiper-slide> 
+            <img src="" alt=""></swiper-slide>
+        <swiper-slide> 
+            <img src="" alt=""></swiper-slide>
+        <swiper-slide> 
+            <img src="" alt=""></swiper-slide>
+        <swiper-slide> 
+            <img src="" alt=""></swiper-slide>
+        <swiper-slide> 
+            <img src="" alt=""></swiper-slide>
+        <swiper-slide> 
+            <img src="" alt=""></swiper-slide>
+        <swiper-slide> 
+            <img src="" alt=""></swiper-slide>	
+        <swiper-slide> 
+            <img src="" alt=""></swiper-slide>
+        </swiper-container>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
+
+<!-- Scripts -->
+
+<script>
+    const swiperEl = document.querySelector('swiper-container')
+
+    const params = {
+        injectStyles: [`
+        .swiper-pagination-bullet {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+        color: #000;
+        opacity: 1;
+        background: rgba(0, 0, 0, 0.2);
+        }
+
+        .swiper-pagination-bullet-active {
+        color: #fff;
+        background: #007aff;
+        }
+        `],
+        pagination: {
+        clickable: true,
+        renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+        },
+    }
+
+    Object.assign(swiperEl, params)
+
+    swiperEl.initialize();
+    </script>
+  </body>
+</div>
+</div>
+
+    <script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrollex.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script></div></body></html>
+
+</html>

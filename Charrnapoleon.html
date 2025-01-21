@@ -27,19 +27,6 @@
 	</section><!-- Three --><section></section>
 	<section id="Charrnapoleon" class="wrapper style2"><div class="inner">
 	<body>
-   	 <script>
-        console.log('Script gestart: de pagina wordt geladen.');
-        document.addEventListener('DOMContentLoaded', () => {
-            console.log('DOM volledig geladen en geanalyseerd.');
-
-            const iframes = document.querySelectorAll('iframe');
-            iframes.forEach((iframe, index) => {
-                iframe.addEventListener('load', () => {
-                    console.log(`Iframe ${index + 1} geladen met URL: ${iframe.src}`);
-                });
-            });
-        });
-    </script>
     <div class="container">
         <div class="video-box">
             <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
@@ -77,21 +64,19 @@
 
 
 
+ <script>
+        console.log('Script gestart: de pagina wordt geladen.');
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM volledig geladen en geanalyseerd.');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            const iframes = document.querySelectorAll('iframe');
+            iframes.forEach((iframe, index) => {
+                iframe.addEventListener('load', () => {
+                    console.log(`Iframe ${index + 1} geladen met URL: ${iframe.src}`);
+                });
+            });
+        });
+    </script>
     </div>
 </body>					
 		</div></div></section>

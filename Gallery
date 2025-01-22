@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+--><html><head><title>Charrnapoleon</title><meta charset="utf-8"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="assets/css/main.css"></head><body>
+	<link rel="stylesheet" href="assets/css/Charrnapoleon.css">
+	<link rel="stylesheet" href="assets/css/Flex box.css">
+	</head><body></body>
+	<link rel="stylesheet" href="assets/css/Slide show/slide show.css">
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="assets/css/Box IMG VID.css"></head><body>
+	<!-- Header -->
+			<header id="header" class="alt"><div class="logo"><a href="index.html">Home  <span></span></a></div>
+				<a href="#menu">Menu</a>
+			</header><!-- Nav --><nav id="menu"><ul class="links"><li><a href="index.html">Home</a></li>
+					<li><a href="charrnapoleon.html">Charrnapoleon</a></li>
+					<li><a href="Freegameplaynapoleon.html">Freegameplaysnapoleon</a></li>
+					<li><a href="Napoleoncraft.html">Napoleon Craft</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="game class.html">Game Class</a></li>
+				</ul></nav><!-- Banner --><section class="banner full"><article>
+					
+					
+					
+					
+					
+					<div class="inner">
+
+		</section><!-- One --><section id="two" class="wrapper style2"><div class="slider">
+		
+		</div>
+	<section id="two" class="wrapper style2"><div class="slider">
+		<div class="flex container">
+		<div class="box">
+			<body>
+
+				<swiper-container class="mySwiper" init="false">
+				<swiper-slide>
+					<img src="Image/Gallery/B.A.K/B A N harly.jpg" alt="" height="" width=""></swiper-slide>
+				<swiper-slide>
+					<img src="Image/Gallery/B.A.K/B A N 1.jpg" alt=""></swiper-slide>
+				<swiper-slide>
+					<img src="Image/Gallery/B.A.K/B A N 2.jpg" alt=""></swiper-slide>
+				<swiper-slide>
+					<img src="Image/Gallery/B.A.K/B A N 3.jpg" alt=""></swiper-slide>
+				<swiper-slide> 
+					<img src="Image/Gallery/B.A.K/B A N Batman call.jpg" alt=""></swiper-slide>
+				<swiper-slide> 
+					<img src="Image/Gallery/B.A.K/B A N Batman en Joker.jpg" alt=""></swiper-slide>
+				<swiper-slide> 
+					<img src="Image/Gallery/B.A.K/B A N Corden.jpg" alt=""></swiper-slide>
+				<swiper-slide> 
+					<img src="Image/Gallery/B.A.K/B A N henry adams.jpg" alt=""></swiper-slide>
+				<swiper-slide> 
+					<img src="Image/Gallery/B.A.K/B A N scarecrow 2.jpg" alt=""></swiper-slide>
+				<swiper-slide> 
+					<img src="Image/Gallery/B.A.K/B A N scarecrow.jpg" alt=""></swiper-slide>
+				<swiper-slide> 
+					<img src="Image/Gallery/B.A.K/BAK 1.jpg" alt=""></swiper-slide>	
+				<swiper-slide> 
+					<img src="Image/Gallery/B.A.K/BAK 2.jpg" alt=""></swiper-slide>
+				</swiper-container>
+				<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+		
+		
+	   
+	   
+
+
+
+	</section><!-- Footer --><footer id="footer"><div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<a href= "mailto: lubbertromkes015@icloud.com" class="icon fa-envelope-o"><span class="label">Email</span> </a>
+						
+						
+					</ul></div>
+			</footer><div class="copyright">
+			Made with <a href="https://templated.co/">Templated</a>.
+		</div>
+
+		<!-- Scripts -->
+
+		<script>
+			const swiperEl = document.querySelector('swiper-container')
+		
+			const params = {
+				injectStyles: [`
+				.swiper-pagination-bullet {
+				width: 20px;
+				height: 20px;
+				text-align: center;
+				line-height: 20px;
+				font-size: 12px;
+				color: #000;
+				opacity: 1;
+				background: rgba(0, 0, 0, 0.2);
+				}
+		
+				.swiper-pagination-bullet-active {
+				color: #fff;
+				background: #007aff;
+				}
+				`],
+				pagination: {
+				clickable: true,
+				renderBullet: function (index, className) {
+					return '<span class="' + className + '">' + (index + 1) + "</span>";
+				},
+				},
+			}
+		
+			Object.assign(swiperEl, params)
+		
+			swiperEl.initialize();
+			</script>
+		  </body>
+	</div>
+	</div>
+
+
+
+
+
+
+
+
+			<script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrollex.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script></div></body></html>
+</html>

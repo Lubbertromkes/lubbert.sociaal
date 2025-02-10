@@ -1,0 +1,12 @@
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Afbeelding", name: "image", widget: "image" }
+      - { label: "Inhoud", name: "body", widget: "markdown" }

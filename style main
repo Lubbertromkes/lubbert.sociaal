@@ -1,4 +1,4 @@
---slide show--
+--slideshow--
 #app {
   height: 100%;
 }
@@ -113,3 +113,72 @@ style
      object-fit: cover;
    }
 style
+
+--Cover--
+
+body{
+    background-color: black;
+}
+
+.container{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+    width: 10px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+.container img:hover{
+    width: 25%;
+
+--vidcontainer--
+
+.container
+
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .video-box {
+            background: #fefdff;
+            border: 1px solid #0000ff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 320px;
+            max-width: 100%;
+        }
+        .video-box iframe {
+            width: 100%;
+            height: 180px;
+            border: none;
+        }
+        .video-box .description {
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+        }

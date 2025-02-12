@@ -150,7 +150,7 @@ body{
             body {
             font-family: Arial, sans-serif;
             margin: 0;
-            border: 0;
+            border: 5;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -162,7 +162,7 @@ body{
             flex-wrap: wrap;
             gap: 10px;
             justify-content: center;
-            padding: 10px;
+            border: 10px;
             max-width: 1100px; /* Voorkomt dat de container te breed wordt */
 
         }

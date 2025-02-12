@@ -141,6 +141,8 @@ body{
 .container img:hover{
     width: 25%;
 
+
+  
 --vidcontainer--
 
 .container
@@ -152,7 +154,7 @@ body{
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            min-height: 50px;
             background-color: #f0f0f0;
         }
         .container {
